@@ -31,7 +31,7 @@ public class TestLC {
     }
 
 //    @ParameterizedTest
-//    @ValueSource(ints = { 2, 4, 6}) // указали здесь возможное кол-во колес
+//    @ValueSource(ints = { 2, 4, 6}) // Параметризованный тест, лежат заведомо ложные данные кроме одного истинного
 //    void carHasCorrectNumberOfWheels(int numWheels) {
 //        Car car = new Car("Tesla", "X", 2022);
 //
@@ -46,7 +46,7 @@ public class TestLC {
     }
 
 //    @ParameterizedTest
-//    @ValueSource(ints = { 2, 4, 6}) // Параметризованный тест
+//    @ValueSource(ints = { 2, 4, 6}) // Параметризованный тест, лежат заведомо ложные данные кроме одного истинного
 //    void motorcycleHasCorrectNumberOfWheels(int numWheels) {
 //        Motorcycle motorcycle = new Motorcycle("Kawasaki", "Hayabusa", 2023);
 //
